@@ -1,0 +1,136 @@
+.Header{
+  /* Location of the image */
+  background-image: url(../public/resources/Background-image.svg);
+  /* Image is centered vertically and horizontally at all times */
+  background-size: cover;
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+
+
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+
+  /* Set the minimum height to 100% of the viewport */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+}
+.ExpandMenu{
+  position: absolute;
+        background-color: black;
+        color: white ;
+        letter-spacing: -.022em;
+        font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        text-transform: uppercase;
+}
+@media only screen and (max-width: 900px) {
+  .MenuBurger{
+    margin: 1rem 0.75rem 0.75rem;
+    overflow: hidden;
+
+  }
+  .DesktopMenu{
+    visibility: hidden !important;
+  }
+  .TextZone{
+    top: 15% !important;
+  }
+  .Aboutmeimg{
+    width: 6.5rem;
+  }
+  .aboutmetext{
+    font-size: 1.125rem !important;
+    font-weight : 1.75rem;
+  }
+  .Skills{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+
+  }
+
+}
+
+@media (min-width: 900px) {
+  .ExpandMenu{
+    visibility: hidden !important;
+
+  }
+  .MenuBurger{
+    visibility: hidden !important;
+
+  }
+
+}
+
+@media only screen and (max-width: 735px) {
+  .TextZoneImage{
+    visibility: hidden !important;
+  }
+
+  .Aboutme{
+    width: 75%;
+    margin: 0 20px;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  .work {
+    flex-direction: column;
+    }
+  .first, .second{
+    width: 24rem !important;
+  }
+}
+
+
+.DesktopMenu{
+  position: absolute;
+font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  left: 7%;
+  margin: 0.5em 0;
+}
+
+.Animation > a {
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+.Animation > a:after{
+    content: "";
+    position: absolute;
+    background-color: #1B6C83;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+.Animation > a:hover{
+    color: #1B6C83;
+}
+.Animation > a:hover:after{
+    width: 100%;
+}
+
+.TextZone{
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  transform: translate(-50%, 0);
+  line-height: 1.5;
+  font-family: Poppins, Chakra Petch,sans-serif;
+  font-size: 2.2em;
+  font-weight: 400;
+}
+.Aboutme{
+  box-shadow: 0px 5px 25px -3px #1B6C83;
+}

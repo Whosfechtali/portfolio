@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://rsms.me/inter/inter.css');
+body {
+  margin: 0;
+  font-family : "Open Sans","sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #011220;
+  color: white;
+  font-family: 'Inter var', 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: Chakra Petch,sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

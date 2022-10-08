@@ -1,0 +1,42 @@
+.swiper {
+  width: 60%;
+
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 30px;
+  position: relative;
+
+}
+
+.swiper-slide img {
+  position: relative;
+  width: 60%;
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .swiper-slide img {
+    display: block;
+    width: 40%;
+  }
+}
+
+
+@media screen and (min-width: 900px) {
+  .swiper-slide img {
+    display: block;
+    width: 30%;
+  }
+}
+
+.swiper-button-prev {
+    color: #1B6C83 !important;
+}
+
+.swiper-button-next {
+  color: #1B6C83 !important;
+}
