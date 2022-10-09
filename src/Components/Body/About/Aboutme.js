@@ -17,7 +17,7 @@ function Aboutme(){
         <div className="flex justify-center">
         <div className="overflow-hidden Aboutme border border-thirdly rounded-lg pb-12 w-6/12">
         <div className="Aboutmeimg rounded-full float-right h-max w-36 mt-2  mx-5">
-         <img  className="mx-4 rounded-full" src='../resources/IMG_0088.JPG' alt="Image" />
+         <img  className="mx-4 rounded-full" src='./resources/IMG_0088.JPG' alt="Image" />
         </div>
         <div className="aboutmetext text-sm mt-2 py-2 mx-3 whitespace-nowrap ">
         <span>
