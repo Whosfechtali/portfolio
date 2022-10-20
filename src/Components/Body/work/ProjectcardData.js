@@ -21,8 +21,8 @@ let ProjectcardData = [
 'url' :"https://whosfechtali.github.io/Password-Generator",
 'title': "Password Generator",
 'description': "A single page web app to generate password with differents options and length ",
-'technologies': "React react-range TailwindCSS "
-}
+'technologies': "React react-range TailwindCSS ",
+},
 ];
 
 export default ProjectcardData;
