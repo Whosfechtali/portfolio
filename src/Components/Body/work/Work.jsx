@@ -5,7 +5,7 @@ import Projectcard from './Projectcard';
 import ProjectcardData from './ProjectcardData';
 
 
-function  Work(props) {
+function  Work() {
     return (
         <div>
           <h1 className="text-center text-5xl mt-2 mb-8 " id={'Work'}>Work</h1>

@@ -31,7 +31,7 @@ function Projectcard(props) {
           onMouseOut={({target})=>target.style.color=""}>
           {props.title}
         </span>
-        <div class="absolute left-6 top-32 text-md mt-2">
+        <div class="absolute left-6 top-32 text-md mt-2 px-2">
           <p>
             {props.description}
           </p>
