@@ -14,6 +14,14 @@ let ProjectcardData = [
 'title': "Note Taking",
 'description': "A single page web app for saving, edit and delete notes build with react and nodejs",
 'technologies': "React Redux TailwindCSS Node.js MongoDB "
+},
+{
+  'id': 3,
+'github': "https://github.com/Whosfechtali/Password-Generator",
+'url' :"https://whosfechtali.github.io/Password-Generator",
+'title': "Password Generator",
+'description': "A single page web app to generate password with differents options and length ",
+'technologies': "React react-range TailwindCSS "
 }
 ];
 
